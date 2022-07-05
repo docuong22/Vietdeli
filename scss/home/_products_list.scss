@@ -1,0 +1,42 @@
+.products-list {
+    @include section-base(30px);
+    padding-top: 70px;
+    h2{
+        font-size: 2.14rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            font-size: 1.077rem;
+            a{
+                color: #acacac;
+                padding: 0 2px;
+                &:hover {
+                    color: #181818; 
+                }
+            }
+        }
+    }
+
+    h3{
+        font-size: 1.55rem;
+        font-weight: bold;
+    }
+
+    .product-box__lists--title{
+        border-bottom: 2px solid #e2e0d7;
+        margin-bottom: 30px;
+        a {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 20px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+}
